@@ -38,3 +38,5 @@ CREATE TABLE detalle_pedido (
     FOREIGN KEY (pedido_id) REFERENCES pedidos(id) ON DELETE CASCADE,
     FOREIGN KEY (producto_id) REFERENCES productos(id) ON DELETE CASCADE
 );
+
+-- Jhonatan tarqui

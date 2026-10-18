@@ -1,1 +1,1 @@
-# negocio-jhonatan-tarqui
+# Modificación competidora realizada desde la Rama B.

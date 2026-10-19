@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Pokémon</title>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main class="contenedor">
+        <h1>Buscador de Pokémon</h1>
+        <p>Escribe el nombre de un Pokémon para consultar sus datos.</p>
+
+        <div class="busqueda">
+            <input
+                type="text"
+                id="nombrePokemon"
+                placeholder="Ejemplo: pikachu"
+                autocomplete="off"
+            >
+            <button id="btnBuscar">Buscar</button>
+        </div>
+
+        <p id="mensaje" role="status" aria-live="polite"></p>
+
+        <section id="resultado" class="tarjeta" hidden>
+            <h2 id="nombre"></h2>
+            <img id="imagen" src="" alt="Imagen del Pokémon">
+
+            <p><strong>Tipos:</strong> <span id="tipos"></span></p>
+            <p><strong>Peso:</strong> <span id="peso"></span> kg</p>
+            <p><strong>Altura:</strong> <span id="altura"></span> m</p>
+        </section>
+    </main>
+</body>
+</html>

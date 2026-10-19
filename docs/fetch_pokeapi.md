@@ -44,4 +44,4 @@ Si el Pokémon no existe, se muestra un mensaje indicando que no fue encontrado.
 
 ### Captura 2. Búsqueda de un Pokémon inexistente
 
-![image alt](https://github.com/user-attachments/assets/0d1f40c1-2bf8-4976-a0ec-8b0733856ebd)
+![image alt](https://github.com/user-attachments/assets/47e3c288-e032-46d0-beca-42e13663d4f3)
